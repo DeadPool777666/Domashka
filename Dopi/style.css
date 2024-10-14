@@ -1,26 +1,30 @@
+
 body {
     margin: 0px;
     padding: 0px;
 }
-
 header {
     background-image: url(./kartinki/1.jpeg);
     background-size: cover;
     height: 1000px;
 }
+#PNG {
+    height: 170px;
 
+}
 .navi {
     display: flex;
-    justify-content: end;
+    justify-content: space-between;
     margin-right: 1%;
     gap: 20px;
 }
 
 .navigatori {
-    color: rgb(91, 102, 255);
+    color: rgba(247, 83, 132, 0.822);
     text-decoration: none;
     margin-top: 1.5%;
     margin-right: 2%;
+    font-size: 20px;
 }
 .container {
     max-width: 1920px;
@@ -31,13 +35,13 @@ h1 {
     justify-content: start;
     margin-top: 100px;
     margin-left: 25px;
-    color: aqua;
+    color: rgb(163, 130, 218);
 }
 #Описание {
     text-align: start;
     font-size: 25px;
     margin-left: 100px;
-    color: rgb(180, 194, 149);  
+    color: rgb(211, 255, 116);  
 }
 #US {
     display: flex;
@@ -90,19 +94,90 @@ h1 {
 .Процент {
     padding-left: 7%;
     font-size: 35px;
-    color: rgb(186, 145, 224);
+    color: rgb(227, 200, 253);
 }
-#Столб1 {
+.Столб1 {
     margin-left: 132px;
-    border: 300px;
     width: 60%;
     height: 8px;
-    background-color: brown;
+    background-color: gray;
 }
-.Cтолб2 {
-    margin-left: 100px;
-    border: 300px;
-    width: 100%;
-    background-color: grey;
+#Cтолб2 {
+    width:  75%;
+    background-color: rgb(122, 218, 235);
     height: 8px;
+}
+#Cтолб3 {
+    width: 45%;
+    background-color: rgb(122, 218, 235);
+    height: 8px;
+}
+#Cтолб4 {
+    width: 60%;
+    background-color: rgb(122, 218, 235)    ;
+    height: 8px;
+}
+#Фон3 {
+    background-color: rgb(0, 166, 147);
+    width: auto;
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+}
+.Icon {
+    display:flex ;
+    justify-content: space-around;
+
+    height: 100px;
+    width: 100%;
+    padding-top: 60px;
+    align-items: center;
+    padding-left: 40px;
+}
+.Icons {
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+}
+.Text1 {
+    font-size: 30px;
+    color: black;
+}
+#Picture {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 2000px;
+}
+.Pictures {
+    width: 459px;
+
+}
+.Example {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 30px;
+}
+#Video{
+    width: 1839px;
+    height: auto;
+    background-color: cornflowerblue;
+}
+#Comment {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: cornflowerblue;
+    width: 1839px;
+    height: 500px;
+    padding-top: 35px;
+}
+#Text2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1300px;
+    height: 400px;
+    font-size: 18px;
 }
