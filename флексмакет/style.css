@@ -1,0 +1,56 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+.container {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+header{
+    background-color: rgb(2, 4, 10);
+    background-size: cover;
+    height: 100px;
+}
+.navi {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    gap: 30px;
+}
+.navigator {
+    color: rgb(81, 104, 240);
+    font-size: 20px;
+    margin-top: 2%;
+    margin-left: 7%;
+}
+.log{
+    display: flex;
+    justify-content: end;
+    color: rgb(81, 104, 240);
+    font-size: 20px;
+    margin-top: 2%;
+    margin-left: 25%;
+}
+#Фон1 {
+    background-image: url(./картинки/anime-minimalizm-2.jpg);
+    height: 1100px;
+    background-size: cover;
+}
+#Picture1 {
+    height: 400px;
+    margin-left: 10%;
+}
+.transparent-sidebar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.1); /* Полупрозрачный белый фон */
+    z-index: 1; /* Устанавливаем индекс слоя для боковой панели */
+}
+
+#Фон1 div {
+    position: relative;
+    z-index: 2; /* Устанавливаем, чтобы картинка была поверх боковой панели */
+}
