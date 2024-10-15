@@ -36,21 +36,53 @@ header{
     height: 1100px;
     background-size: cover;
 }
-#Picture1 {
-    height: 400px;
-    margin-left: 10%;
-}
-.transparent-sidebar {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 300px;
-    height: 100%;
-    background-color: rgba(255, 255, 255, 0.1); /* Полупрозрачный белый фон */
-    z-index: 1; /* Устанавливаем индекс слоя для боковой панели */
-}
 
-#Фон1 div {
-    position: relative;
-    z-index: 2; /* Устанавливаем, чтобы картинка была поверх боковой панели */
+#logo_and_ad{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+#logo_and_ad > img{
+    height: 400px;
+}
+#Прозрачность {
+    height: 250px; 
+    width: 800px; 
+    background-color: rgba(128, 128, 128, 0.589);
+    margin-top: 50px;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    border:solid rgb(151, 149, 149);
+}
+#BlackBlock {
+    display: flex;
+    background-color: black;
+    width: 1200px;
+    height: 500px;
+    margin-top: 40px;
+    margin: auto;
+    box-shadow:0px 0px 0px 15px rgba(0, 0, 0, 0.425);
+}
+#Text1 {
+    display: flex;
+    justify-content: start;
+    color: white;
+    font-size: 40px;
+    margin-left: 40px;
+    padding-top: 0px;
+}
+#P1 {
+    display: flex;
+    justify-content: start;
+    color: rgb(139, 88, 139);
+    font-size: 20px;
+    margin-left: 40px;
+    padding-top: 0px;
+}
+#Ссылка {
+    margin-right: 100px; 
+    font-size: 20px; color: aqua;
+    text-decoration: none;
 }
