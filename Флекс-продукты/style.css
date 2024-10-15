@@ -1,0 +1,26 @@
+#Text1 {
+    display: flex;
+    justify-content: center;
+}
+.product {
+    border: solid 2px black;
+    border-radius: 30px;
+    width: 167px;
+    text-align: center;
+    padding-top: 22px;
+    margin: 10PX;
+    
+}
+#Main {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin:  auto;   
+    justify-content: center ;
+    border-bottom: solid 1px black;
+}
+#Center {
+    text-align: center;
+    font-weight: 800;
+}
+
