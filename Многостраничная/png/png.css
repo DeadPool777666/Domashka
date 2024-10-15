@@ -1,0 +1,76 @@
+#Body1 {
+    
+    background-image: url('../картинки/фон1.jpg');   
+    background-size: cover; 
+    text-decoration: none;
+    font-size: 40px;
+    color: rgb(219, 70, 78);
+}
+#Text1 {
+    margin-left: 10%;
+    color: rgb(0, 255, 221);
+    font-size: 60px;
+    margin-left: 7px;
+    text-decoration: none;
+}
+#Text2 {
+    margin-left: 10%;
+    color: rgb(0, 255, 221);
+    font-size: 60px;
+    margin-top: 200px;
+    text-decoration: none;
+}
+#Body2 {
+    background-image: url("../картинки/фон2.jpg");
+    background-size: cover;
+    font-size: 50px;
+    color: rgb(255, 0, 119);
+    text-decoration: none;
+}
+#Body3 {
+    background-image: url("../картинки/фон3.jpg");
+    background-size: cover;
+    font-size: 50px;
+    color: rgb(251, 255, 0);
+    text-decoration: none;
+}
+#Body4 {
+    background-image: url("../картинки/фон4.jpg");
+    background-size: cover;
+    font-size: 30px;
+    color: rgb(147, 74, 206);
+    text-decoration: none;
+}
+#Text5 {
+    margin-left: 10%;
+    color: rgb(230, 66, 66);
+    font-size: 60px;
+    margin-left: 80px;
+    text-decoration: none;
+}
+#Text6 {
+    margin-top: auto;
+    color: #e73b24;
+}
+#Text7 {
+    margin-top: -30px;
+}
+#Text8 {
+    margin-top: -40px;
+    font-size: 60%;
+    color: rgb(189, 46, 170);
+}
+#Text9 {
+    margin-top: -20px;
+    font-size: 80%;
+    color: rgb(42, 180, 204);
+}
+#Text10 {
+    margin-top: -20px;
+    color: rgb(204, 42, 196);
+}
+#Text11 {
+    margin-top: -20px;
+    color: rgb(204, 42, 204);
+    font-size: 60%;
+}
