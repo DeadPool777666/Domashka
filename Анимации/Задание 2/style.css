@@ -1,0 +1,41 @@
+.block1 {
+    width: 600px;
+    height: 300px;
+    border: solid 2px;
+    background-color:   rgb(255, 0, 0);
+    transform-origin: left;
+    z-index: 2;
+ 
+
+
+}
+.block2 {
+    width: 600px;
+    height:300px;
+    border: solid 2px;
+    background-color:   rgb(255, 0, 0);
+    transform-origin: right;
+    z-index: 2;
+
+}
+.container {
+    display: flex;
+    justify-content: center;
+    width: 1050px;
+    margin: auto;
+    
+}
+.container:hover{
+.block1 {
+    transform: perspective(1cm) rotateY(20deg);
+    transition: 2s;
+}
+.block2{
+    transform: perspective(1cm) rotateY(-20deg);
+    transition: 2s;}
+}
+p { 
+    position: absolute;
+    z-index: 1;
+    padding-top: 6%;
+}

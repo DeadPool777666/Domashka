@@ -1,0 +1,47 @@
+@keyframes circle_animation {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.clock{
+    height: 300px;
+    width: 300px;
+    border:solid 10px;
+    border-radius: 100%;
+    color: cadetblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circle {
+    height: 15px;
+    width: 15px;
+    border:solid 2px;
+    border-radius: 100%;
+    color: cadetblue;
+    position: absolute;
+    background-color: cadetblue;
+}
+.minute{
+    position:absolute;
+    height: 100px;
+    width: 5px;
+    background-color: cadetblue;
+    animation: circle_animation 8  s linear infinite;
+    transform-origin: top center;
+    left: 166px;
+    top: 168px;
+}
+.hour {
+    position:absolute;
+    height: 130px;
+    width: 5px;
+    background-color: cadetblue;
+    animation: circle_animation 5s linear infinite;
+    transform-origin: top center;
+    left: 166px;
+    top: 168px;
+}
