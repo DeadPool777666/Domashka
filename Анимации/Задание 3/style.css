@@ -1,0 +1,29 @@
+.kartinka {
+    display: flex;
+    width: 1900px;
+    height: 400px;
+    position: absolute;
+    border: solid red;
+}
+.img {
+    display: flex;
+    /* justify-content: end; */
+    /* align-items: end; */
+    position:relative;
+    /* left: auto; */
+    width: 951px;
+    height: 400px;
+    transition: 1s ;
+    /* left: 949px; */
+}
+.text {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.kartinka:hover .img{
+        transform: scale(1);
+        background-color: rgba(0, 0, 0, 0.514) ;
+    }
