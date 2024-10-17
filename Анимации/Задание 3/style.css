@@ -1,20 +1,25 @@
+body{
+    margin: 0;
+}
 .kartinka {
     display: flex;
-    width: 1900px;
+    width: 1850px;
     height: 400px;
-    position: absolute;
-    border: solid red;
+    position: relative;
+    overflow: hidden;
 }
 .img {
     display: flex;
-    /* justify-content: end; */
-    /* align-items: end; */
     position:relative;
-    /* left: auto; */
-    width: 951px;
+    width: 50%;
     height: 400px;
     transition: 1s ;
-    /* left: 949px; */
+    overflow: hidden;
+}
+img{
+    height: auto;
+    width: 100%;
+    transition: 1s;
 }
 .text {
     display: flex;
@@ -22,8 +27,17 @@
     justify-content: center;
     align-items: center;
     position: relative;
+    transition: 1s ;
+    width: 50%;
+    height: 100%;
 }
-.kartinka:hover .img{
-        transform: scale(1);
-        background-color: rgba(0, 0, 0, 0.514) ;
+.kartinka:hover{
+    img{
+        transform: scale(1.2);
+        color:  rgba(0, 0, 0, 0.514) ;
+        filter: brightness(0.7);
     }
+    .text{
+        background-color:  rgba(0, 0, 0, 0.514) ;
+    }
+}

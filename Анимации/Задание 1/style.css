@@ -30,7 +30,7 @@
     height: 100px;
     width: 5px;
     background-color: cadetblue;
-    animation: circle_animation 8  s linear infinite;
+    animation: circle_animation 8s linear infinite;
     transform-origin: top center;
     left: 166px;
     top: 168px;

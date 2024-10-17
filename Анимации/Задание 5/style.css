@@ -1,0 +1,18 @@
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(to bottom right, blue, rgb(255, 82, 111));
+    border-radius: 15%;
+    transition: 1s;
+}
+.box:hover{
+    transform: perspective(185px) rotateX(9deg) rotateY(-24deg);
+}

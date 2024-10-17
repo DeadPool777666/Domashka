@@ -1,0 +1,45 @@
+@keyframes animation {
+    0%{
+        left: 0px;
+        top: 0px;
+    }
+    25%{   
+        transform: skew(20deg);
+    }
+    49%{
+        transform: skew(20deg);
+    }
+    50%{
+        left: 795px;
+        transform: skew(0deg);
+    }
+    75%{
+        transform: skew(-20deg)
+    }
+    99%{
+        transform: skew(-20deg);
+    }
+
+    100%{
+        left: 0px;
+    }
+}
+body{
+    margin-top: 10%;
+    background-color: black;
+}
+.block{
+    margin: auto;
+    width: 900px;
+    height: 106px;
+    border: solid rgb(0, 255, 149);
+}
+.box {
+    width: 100px;
+    height:100px ;
+    border:solid plum ;
+    background-color: plum; 
+    animation: animation 2s infinite ;
+    position: relative;
+    animation-timing-function: linear;
+}
