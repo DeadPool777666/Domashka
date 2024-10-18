@@ -1,0 +1,37 @@
+h3{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.text1{
+   width: 200px;
+   height: 50px;
+   border-radius: 5%;
+
+}
+.text2{
+    width: 200px;
+    height: 50px;
+    border-radius: 5%;
+    background-image: url(./kartinki/valid.png);
+    background-repeat: no-repeat;
+    background-position: 99%;
+    background-size:10% ;
+    border: solid green;
+ }
+ .text3{
+    width: 200px;
+    height: 50px;
+    border-radius: 5%;
+    background-image: url(./kartinki/invalid.png);
+    background-repeat: no-repeat;
+    background-position: 99%;
+    background-size:10% ;
+    border: solid red;
+ }
+ .anim{
+    width:0px;
+    height: 0px;
+ }
+ .anim:checked{
+    transform:translate(10px) ;
+ }
