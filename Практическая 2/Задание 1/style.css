@@ -1,0 +1,25 @@
+body {
+    font-size: 11px; 
+    background-color: white; 
+    color: rgb(0, 0, 0); 
+  }
+  h1 {
+    color: red; 
+    font-size: 40px;  
+    font-weight: normal; 
+  }
+  p {
+    text-align: justify; 
+    margin-left: 45px; 
+    margin-right: 15px; 
+    border-left: 1px solid black; 
+    border-bottom: 1px solid black; 
+    padding-left: 10px; 
+    padding-bottom: 10px; 
+    font-size: 20px;
+
+  }
+  div{
+    width: 700px;
+    height: 600px;
+  }

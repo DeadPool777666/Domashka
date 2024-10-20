@@ -1,0 +1,23 @@
+#Main{
+    
+    background-color: pink;
+    margin: auto;
+    padding-top: 2px;
+}
+#Pink1 {
+    background-color: rgb(252, 47, 166);
+    color: aliceblue;
+    margin-top: 20px;
+    padding-left: 5px; 
+    
+    padding: 5px;
+
+}
+#PinkBlack1 {
+    
+    background-color: rgb(165, 7, 73);
+    color: aliceblue;
+    
+    padding-bottom:  23px;
+    padding: 5px;
+}
