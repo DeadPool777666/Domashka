@@ -1,0 +1,68 @@
+.container{
+    width: 1920px;
+    margin: auto 0px;
+}
+.navi {
+    display: flex;
+    justify-content: end;
+    gap: 50px;
+    /* border: solid; */
+    margin-right:400px ;
+}
+.navigatori {
+    color: rgba(247, 83, 132, 0.822);
+    text-decoration: none;
+    margin-top: 1.5%;
+    margin-right: 2%;
+    font-size: 20px;
+}
+#box{
+    border: solid black;
+    border-radius: 6%;
+    height: 700px;
+    width: 1300px;
+    margin: auto;
+    overflow: hidden;
+}
+.greenbox{
+    grid-area: one;
+    background-color: greenyellow;
+}
+.blackbox{
+    grid-area: two;
+    background-color: rgb(80, 77, 77);
+}
+.redbox{
+    grid-area: three;
+    background-color: red;
+}
+.orangebox{
+    grid-area: four;
+    background-color: orange;
+}
+.pinkbox{
+    grid-area: five;
+    background-color: pink;
+}
+.purplebox{
+    grid-area: six;
+    background-color: rgb(171, 16, 171);
+}
+.aquabox{
+    grid-area: seven;
+    background-color: aqua;
+}
+.MainInfo {
+    display: grid;
+    grid-template-areas:
+    'one one one three four four four four four'
+    'one one one three four four four four four'
+    'one one one three five five six six six'
+    'one one one  three five five six six six'
+    'two two two two two two seven seven seven '
+    'two two two two two two seven seven seven '
+    'two two two two two two seven seven seven ';
+    height: 800px;
+    text-align: center;
+    width: 100%;
+  }
