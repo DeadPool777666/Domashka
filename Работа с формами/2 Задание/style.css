@@ -28,10 +28,41 @@ h3{
     background-size:10% ;
     border: solid red;
  }
+.text4{
+   position: absolute;
+   display: flex;
+}
  .anim{
     width:0px;
     height: 0px;
  }
- .anim:checked{
-    transform:translate(10px) ;
+ .text4 > .box2{
+   height: 25px;
+   width: 50px;
+   border: 2px solid;
+   display: flex;
+   align-items: center;
+   padding-left: 3px;
+   border-radius: 5px;
+   border: 2px solid green;
+   transition: 0.5s;
+   position: relative;
+   bottom: 10px;
+   margin: 5px;
  }
+.box2::after{
+   content: "";
+   display: block;   
+   width: 25px;
+   height: 20px;
+   background-color: lime;
+   border-radius: 5px;
+   transition: 0.5s;
+ }
+.anim:checked ~ .box2::after{
+   transform: translate(20px);
+   background-color: red;
+}
+.anim:checked ~.box2{
+   border: 2px solid darkred;
+}
