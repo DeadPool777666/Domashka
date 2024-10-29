@@ -19,9 +19,24 @@ body {
     height: 76px;
     gap: 30px;
 }
+.button_1{
+    border-radius: 25px;
+    width: 206px;
+    height: 50px;
+    box-shadow: 0 5px 25px 0 rgba(26, 33, 47, 0.1);
+    background: #fffefd;
+    padding-left: 180px;
+    background-image: url(../kartinki/button.png);
+    background-repeat: no-repeat;
+    background-position-x:50% ;
+    background-position-y:40% ;
+    margin-left: 14%;
+    margin-top: 3%;
+    cursor: pointer;
+}
 
 .img_1 {
-    margin-right: auto; /* Логотип слева */
+    margin-right: auto; 
     padding-left:64px ;
 }
 
@@ -56,9 +71,6 @@ body {
     padding-top: 0px;
     font-weight: 500;
     font-size: 20px;        
-}
-.img_2{
-    padding-left: 180px;
 }
 main{
     width: 1366px;
@@ -145,7 +157,7 @@ main{
     z-index: 1;
 }
 .box_3{
-    position: absolute;
+    position: relative;
     border-radius: 8px;
     width: 500px;
     height: 284px;
@@ -153,11 +165,89 @@ main{
     background: #fff;   
     margin-top: 130px;
     z-index: 10;
-    right: 25%;
+    right: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .box_4{
     width: 1485px;
     height: 505px;
     display: flex;
-    position: relative;
 }
+.text_5{
+    font-weight: 500;
+    font-size: 22px;
+}
+.svg_h3{
+    margin-top: 30px;
+}
+.text_6{
+    font-weight: 400;
+    font-size: 16px;
+    width: 140px;
+    margin-left: 10px;
+    margin-bottom: 100px;
+}
+.box_5{
+    width: 60%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+.svg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 99;
+}
+.button_2{
+    border-radius: 25px;
+    width: 206px;
+    height: 50px;
+    box-shadow: 0 5px 25px 0 rgba(26, 33, 47, 0.1);
+    background: #fffefd;
+    padding-left: 180px;
+    background-image: url(../kartinki/button.png);
+    background-repeat: no-repeat;
+    background-position-x:50% ;
+    background-position-y:40% ;
+    margin-top: 5%;
+    cursor: pointer;
+}
+.label{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+    width: 1300px;
+    margin:auto;
+    
+}
+.radio_button_1{
+    border-radius: 100%;
+    color: #fac663;
+    width: 12px 12px;
+}
+.button_3{
+    position: relative;
+    border-radius: 100%;
+    fill: #fff;
+    box-shadow: 0 2px 12px 0 rgba(173, 152, 143, 0.25);
+    width: 36px;
+    height: 36px;
+    left: 400px;
+    border: none;
+    cursor: pointer;
+}
+.box_6{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: end;
+}
+
+
