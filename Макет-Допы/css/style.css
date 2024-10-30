@@ -72,21 +72,27 @@ body {
     font-weight: 500;
     font-size: 20px;        
 }
-main{
-    width: 1366px;
-    height: 3435px;
+.reviews-container {
+    display: flex;
+    gap: 30px;
+    padding: 40px;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     overflow: hidden;
-    background-color:fill #FFFFFF;
-    z-index: 99;
+    min-height: 3600px;
 }
 .div_2{
-    width: 1170px;
+    width: 1366px;
     height: 757px;
-    margin: auto;
+    align-items:center;
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
     padding-top: 70px;
+    margin-left: 7%;
 }
 .text_2{
     font-size: 36px;
@@ -102,16 +108,14 @@ main{
     background: #fff;
     z-index: 1;
 }
-#Space{
-    height: 130px;
-}
 #WE{
     background-image: url(../kartinki/paw.jpg);
     background-repeat: no-repeat;
     background-origin:content-box;
-    background-position-x: 105%;
-    background-position-y: 15px;
-    background-size: 25%;
+    background-position-x: 109%;
+    background-position-y: -30%;
+    background-size: 30%;
+    padding-top: 130px;
 }
 .img_3{
     margin: 30px;
@@ -130,7 +134,7 @@ main{
     margin-left: 30px 
 }
 .box_2{
-    width: 1198px;
+    width: auto;
     height: 578px; 
     background-image: url(../kartinki/fish.jpg);
     background-repeat: no-repeat;
@@ -171,11 +175,10 @@ main{
     justify-content: center;
     align-items: center;
 }
-.box_4{
-    width: 1485px;
-    height: 505px;
+.box_4 {
     display: flex;
-}
+    align-items: center; /* Или flex-start, в зависимости от желаемого поведения */
+  }
 .text_5{
     font-weight: 500;
     font-size: 22px;
@@ -218,15 +221,18 @@ main{
     margin-top: 5%;
     cursor: pointer;
 }
-.label{
+.label {
+    /* ... другие стили для label ... */
+    width: 100%; /* Занимаем всю ширину контейнера */
     display: flex;
-    justify-content: center;
+    justify-content: center; /* Центрируем div с кнопками */
+}
+
+.radio-buttons-wrapper {
+    display: inline-flex;
+    justify-content: space-between;
     align-items: center;
-    gap: 1%;
-    width: 1366px;
-    margin:auto;
-    padding: auto;
-    position: relative;
+    gap: 10px;
 }
 .radio_button_1{
     border-radius: 100%;
@@ -243,7 +249,7 @@ main{
     box-shadow: 0 2px 12px 0 rgba(173, 152, 143, 0.25);
     width: 36px;
     height: 36px;
-    left: 1140px;
+    left: 1480px;
     border: none;
     cursor: pointer;
 }
@@ -254,22 +260,24 @@ main{
     box-shadow: 0 2px 12px 0 rgba(173, 152, 143, 0.25);
     width: 36px;
     height: 36px;
-    right: 240px;
+    right: 550px;
     border: none;
     cursor: pointer;
 }
 
 .box_7{
+    padding-top: 200px;
     width: 1366px;
     height: 556px;
     background-image: url(../kartinki/лапка.png);
     background-repeat: no-repeat;
     background-position-x:103% ;
-    background-position-y:30% ;
+    background-position-y:50% ;
     gap: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    overflow: hidden;
 }
 .text_7{
     font-weight: 700;
