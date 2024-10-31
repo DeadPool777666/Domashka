@@ -13,13 +13,14 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-.nav {
+.header__nav {
     display: flex;
     align-items: center;
     height: 76px;
     gap: 30px;
 }
-.button_1{
+
+.main-block__button{
     border-radius: 25px;
     width: 206px;
     height: 50px;
@@ -35,12 +36,12 @@ body {
     cursor: pointer;
 }
 
-.img_1 {
+.header__img {
     margin-right: auto; 
     padding-left:64px ;
 }
 
-.text {
+.header__link {
     text-decoration: none;
     font-size: 16px;
     font-weight: 600;
@@ -48,35 +49,41 @@ body {
     padding: 0 20px;
 
 }
-#div_1{
+
+#main-block{
     width: 1366px;
     height: 504px;
     background-image: url(/kartinki/background-main.jpg);
     z-index: 99;
 }
-.span_1{
+
+.main-block__city{
     display: flex;
     flex-direction: column;
     padding-left: 198px;
     padding-top: 156px;
 }
-.span_2{
+
+.main-block__name{
     font-weight: 700;
     font-size: 62px;
     padding-left: 198px;
 }
-.span_3{
+
+.main-block__description{
     display: flex;
     padding-left: 198px;
     padding-top: 0px;
     font-weight: 500;
     font-size: 20px;        
 }
-.reviews-container {
+
+.reviews-section__reviews-container {
     display: flex;
     gap: 30px;
     padding: 40px;
 }
+
 main {
     display: flex;
     flex-direction: column;
@@ -84,7 +91,8 @@ main {
     overflow: hidden;
     min-height: 3600px;
 }
-.div_2{
+
+.why-us__wrapper{
     width: 1366px;
     height: 757px;
     align-items:center;
@@ -94,13 +102,15 @@ main {
     padding-top: 70px;
     margin-left: 7%;
 }
-.text_2{
+
+.why-us__title{
     font-size: 36px;
     font-weight: 700;
     text-align: center;
 
 }
-.box_1 {
+
+.why-us__item {
     border-radius: 8px;
     flex-basis: 370px; /* Используем flex-basis */
     height: 321px;
@@ -108,7 +118,8 @@ main {
     background: #fff;
     z-index: 1;
 }
-#WE{
+
+#why-us{
     background-image: url(../kartinki/paw.jpg);
     background-repeat: no-repeat;
     background-origin:content-box;
@@ -117,23 +128,27 @@ main {
     background-size: 30%;
     padding-top: 130px;
 }
-.img_3{
+
+.why-us__img{
     margin: 30px;
 }
-.text_3{
+
+.why-us__subtitle{
     margin: auto;
     margin-left: 30px ;
     font-weight: 500;
     font-size: 22px;
     line-height: 140%;
 }
-.ul_1{
+
+.why-us__text{
     font-weight: 400;
     font-size: 16px;
     line-height: 140%;
     margin-left: 30px 
 }
-.box_2{
+
+.numbers-section__wrapper{
     width: auto;
     height: 578px; 
     background-image: url(../kartinki/fish.jpg);
@@ -142,14 +157,16 @@ main {
     overflow: hidden;
     display: flex;
 }
-.text_4{
+
+.numbers-section__title{
     margin: auto;
     text-align: center;
     font-weight: 700;
     font-size: 36px;
     margin-top: 137px;
 }
-.img_4{
+
+.numbers-section__img{
     border-radius: 10px;
     width: 620px;
     height: 424px;
@@ -160,7 +177,8 @@ main {
     flex-direction: row;
     z-index: 1;
 }
-.box_3{
+
+.numbers-section__info{
     position: relative;
     border-radius: 8px;
     width: 500px;
@@ -175,25 +193,30 @@ main {
     justify-content: center;
     align-items: center;
 }
-.box_4 {
+
+.numbers-section__item {
     display: flex;
     align-items: center; /* Или flex-start, в зависимости от желаемого поведения */
   }
-.text_5{
+
+.numbers-section__subtitle{
     font-weight: 500;
     font-size: 22px;
 }
-.svg_h3{
+
+.numbers-section__icon{
     margin-top: 30px;
 }
-.text_6{
+
+.numbers-section__text{
     font-weight: 400;
     font-size: 16px;
     width: 140px;
     margin-left: 10px;
     margin-bottom: 100px;
 }
-.box_5{
+
+.numbers-section__details{
     width: 60%;
     height: 50%;
     display: flex;
@@ -201,13 +224,8 @@ main {
     justify-content: center;
     gap: 10px;
 }
-.svg{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 99;
-}
-.button_2{
+
+.numbers-section__button{
     border-radius: 25px;
     width: 206px;
     height: 50px;
@@ -221,20 +239,23 @@ main {
     margin-top: 5%;
     cursor: pointer;
 }
-.label {
+
+.numbers-section__label {
     /* ... другие стили для label ... */
     width: 100%; /* Занимаем всю ширину контейнера */
     display: flex;
     justify-content: center; /* Центрируем div с кнопками */
+    position: relative;
 }
 
-.radio-buttons-wrapper {
+.numbers-section__radio-wrapper {
     display: inline-flex;
     justify-content: space-between;
     align-items: center;
     gap: 10px;
 }
-.radio_button_1{
+
+.numbers-section__radio{
     border-radius: 100%;
     color: #fac663;
     width: 12px 12px;
@@ -242,50 +263,54 @@ main {
     justify-content: center;
     align-items: center;
 }
-.button_3{
+
+.numbers-section__prev-button{
     position: absolute;
     border-radius: 100%;
     fill: #fff;
     box-shadow: 0 2px 12px 0 rgba(173, 152, 143, 0.25);
     width: 36px;
     height: 36px;
-    left: 1480px;
-    border: none;
-    cursor: pointer;
-}
-.button_4{
-    position: absolute;
-    border-radius: 100%;
-    fill: #fff;
-    box-shadow: 0 2px 12px 0 rgba(173, 152, 143, 0.25);
-    width: 36px;
-    height: 36px;
-    right: 550px;
+    left: 1080px;
     border: none;
     cursor: pointer;
 }
 
-.box_7{
+.numbers-section__next-button{
+    position: absolute;
+    border-radius: 100%;
+    fill: #fff;
+    box-shadow: 0 2px 12px 0 rgba(173, 152, 143, 0.25);
+    width: 36px;
+    height: 36px;
+    right: 130px;
+    border: none;
+    cursor: pointer;
+}
+
+.reviews-section__wrapper{
     padding-top: 200px;
-    width: 1366px;
+    width: 1294px;
     height: 556px;
     background-image: url(../kartinki/лапка.png);
     background-repeat: no-repeat;
     background-position-x:103% ;
-    background-position-y:50% ;
+    background-position-y:40% ;
     gap: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     overflow: hidden;
 }
-.text_7{
+
+.reviews-section__title{
     font-weight: 700;
     font-size: 36px;
     text-align: center;
 
 }
-.box_8{
+
+.reviews-section__review{
     width: 470px;
     height: 206px;
     box-shadow: 0 0 25px 0 rgba(208, 208, 208, 0.25);
@@ -295,20 +320,75 @@ main {
     gap: 8px;
     padding: 30px;
 }
-.img_5{
+
+.reviews-section__quotes{
     
     display: block;
     width:20px;
 }
-.text_8{
+
+.reviews-section__text{
     width: 362px;
     display: block;
 
 }
-.box_9{
+
+.reviews-section__author{
     margin-top: 10px;
     width: 370px;
     height: 10px;
     display: flex;
     justify-content: space-between;
+}
+
+.reviews-section__label {
+    /* ... другие стили для label ... */
+    width: 100%; /* Занимаем всю ширину контейнера */
+    display: flex;
+    justify-content: center; /* Центрируем div с кнопками */
+    position: relative;
+}
+
+.reviews-section__radio-wrapper {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.reviews-section__radio{
+    border-radius: 100%;
+    color: #fac663;
+    width: 12px 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reviews-section__prev-button{
+    position: absolute;
+    border-radius: 100%;
+    fill: #fff;
+    box-shadow: 0 2px 12px 0 rgba(173, 152, 143, 0.25);
+    width: 36px;
+    height: 36px;
+    left: 1080px;
+    border: none;
+    cursor: pointer;
+}
+
+.reviews-section__next-button{
+    position: absolute;
+    border-radius: 100%;
+    fill: #fff;
+    box-shadow: 0 2px 12px 0 rgba(173, 152, 143, 0.25);
+    width: 36px;
+    height: 36px;
+    right: 130px;
+    border: none;
+    cursor: pointer;
+}
+.map-section__wrapper{
+    width: 1366px;
+    height: 580px;
 }

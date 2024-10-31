@@ -12,99 +12,99 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Protest+Strike&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="container">
-        <nav class="nav">
-            <img class="img_1" src="./kartinki/лого.jpg" alt="Logo">
-            <a class="text" href="#We">Почему мы?</a>
-            <a class="text" href="#Number">Номера</a>
-            <a class="text" href="#Reviews">Отзывы</a>
-            <a class="text" href="#">Как нас найти</a>
+    <header class="header container">
+        <nav class="header__nav">
+            <img class="header__img" src="./kartinki/лого.jpg" alt="Logo">
+            <a class="header__link" href="#We">Почему мы?</a>
+            <a class="header__link" href="#Number">Номера</a>
+            <a class="header__link" href="#Reviews">Отзывы</a>
+            <a class="header__link" href="#Map">Как нас найти</a>
         </nav>
     </header>
 
-    <div id="div_1" class="container">
-        <span class="span_1">Санкт-Петербург</span>
-        <span class="span_2">Котейка</span>
-        <span class="span_3">Уютная гостиница для котов и кошек</span>
-        <button class="button_1"></button>
+    <div id="main-block" class="container">
+        <span class="main-block__city">Санкт-Петербург</span>
+        <span class="main-block__name">Котейка</span>
+        <span class="main-block__description">Уютная гостиница для котов и кошек</span>
+        <button class="main-block__button"></button>
     </div>
 
-    <main id="We" style="display: flex; flex-direction: column; align-items: center;">
+    <main id="main-content" style="display: flex; flex-direction: column; align-items: center;">
 
-        <section id="WE" class="container">
-            <h1 class="text_2">Почему мы?</h1>
-            <div class="div_2">
-                <div class="box_1">
-                    <img class="img_3" src="./kartinki/termometr.png" alt="Комфортная температура">
-                    <h2 class="text_3">Комфортная температура</h2>
-                    <p class="ul_1">Во всех номерах поддерживается комфортная температура в пределах 23 - 25 градусов. В каждом номере можно дополнительно отрегулировать температуру.</p>
+        <section id='We' class="container">
+            <h1 class="why-us__title">Почему мы?</h1>
+            <div class="why-us__wrapper">
+                <div class="why-us__item">
+                    <img class="why-us__img" src="./kartinki/termometr.png" alt="Комфортная температура">
+                    <h2 class="why-us__subtitle">Комфортная температура</h2>
+                    <p class="why-us__text">Во всех номерах поддерживается комфортная температура в пределах 23 - 25 градусов. В каждом номере можно дополнительно отрегулировать температуру.</p>
                 </div>
-                <div class="box_1">
-                    <img class="img_3" src="./kartinki/камера.png" alt="Видеонаблюдение">
-                    <h2 class="text_3">Видеонаблюдение</h2>
-                    <p class="ul_1">Мы предоставляем доступ в нашу систему. Вы сможете следить за своим питомцем со своего смартфона или компьютера.</p>
+                <div class="why-us__item">
+                    <img class="why-us__img" src="./kartinki/камера.png" alt="Видеонаблюдение">
+                    <h2 class="why-us__subtitle">Видеонаблюдение</h2>
+                    <p class="why-us__text">Мы предоставляем доступ в нашу систему. Вы сможете следить за своим питомцем со своего смартфона или компьютера.</p>
                 </div>
-                <div class="box_1">
-                    <img class="img_3" src="./kartinki/машина.png" alt="Услуги зоотакси">
-                    <h2 class="text_3">Услуги Зоотакси</h2>
-                    <p class="ul_1">Мы приедем за вашим питомцем в любой район Санкт-Петербурга.</p>
+                <div class="why-us__item">
+                    <img class="why-us__img" src="./kartinki/машина.png" alt="Услуги зоотакси">
+                    <h2 class="why-us__subtitle">Услуги Зоотакси</h2>
+                    <p class="why-us__text">Мы приедем за вашим питомцем в любой район Санкт-Петербурга.</p>
                 </div>
-                <div class="box_1">
-                    <img class="img_3" src="./kartinki/корм.png" alt="Сбалансированное питание">
-                    <h2 class="text_3">Сбалансированное питание</h2>
-                    <p class="ul_1">Вы можете привезти свой корм или доверить рацион своего питомца нашим профессионалам.</p>
+                <div class="why-us__item">
+                    <img class="why-us__img" src="./kartinki/корм.png" alt="Сбалансированное питание">
+                    <h2 class="why-us__subtitle">Сбалансированное питание</h2>
+                    <p class="why-us__text">Вы можете привезти свой корм или доверить рацион своего питомца нашим профессионалам.</p>
                 </div>
-                <div class="box_1">
-                    <img class="img_3" src="./kartinki/котик.png" alt="Ежедневные прогулки">
-                    <h2 class="text_3">Ежедневные прогулки</h2>
-                    <p class="ul_1">По вашему желанию мы выгуливаем вашего питомца два раза в день на специализированной закрытой территории.</p>
+                <div class="why-us__item">
+                    <img class="why-us__img" src="./kartinki/котик.png" alt="Ежедневные прогулки">
+                    <h2 class="why-us__subtitle">Ежедневные прогулки</h2>
+                    <p class="why-us__text">По вашему желанию мы выгуливаем вашего питомца два раза в день на специализированной закрытой территории.</p>
                 </div>
-                <div class="box_1">
-                    <img class="img_3" src="./kartinki/ветеринар.png" alt="Лучшие ветеринары">
-                    <h2 class="text_3">Лучшие ветеринары</h2>
-                    <p class="ul_1">В гостинице 24 часа дежурит ветеринарный врач, который окажет любую помощь в случае необходимости</p>
+                <div class="why-us__item">
+                    <img class="why-us__img" src="./kartinki/ветеринар.png" alt="Лучшие ветеринары">
+                    <h2 class="why-us__subtitle">Лучшие ветеринары</h2>
+                    <p class="why-us__text">В гостинице 24 часа дежурит ветеринарный врач, который окажет любую помощь в случае необходимости</p>
                 </div>
             </div>
         </section>
 
         <section id="Number" class="container">
-            <h2 class="text_4">Номера</h2>
-            <div class="box_2">
-                <div class="box_4">
-                    <img class="img_4" src="./kartinki/котик2.jpg" alt="Номер эконом плюс">
-                    <div class="box_3">
-                        <div class="box_5">
-                            <h3 class="text_5">Эконом плюс</h3>
+            <h2 class="numbers-section__title">Номера</h2>
+            <div class="numbers-section__wrapper">
+                <div class="numbers-section__item">
+                    <img class="numbers-section__img" src="./kartinki/котик2.jpg" alt="Номер эконом плюс">
+                    <div class="numbers-section__info">
+                        <div class="numbers-section__details">
+                            <h3 class="numbers-section__subtitle">Эконом плюс</h3>
                             <div>
-                                <svg class="svg_h3" width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <svg class="numbers-section__icon" width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <circle cx="6.50049" cy="6.5" r="6.5" fill="#FAC663" />
                                 </svg>
-                                <span class="text_6">Площадь - 0,90 м2</span>
+                                <span class="numbers-section__text">Площадь - 0,90 м2</span>
                             </div>
                             <div>
-                                <svg class="text_5" width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <svg class="numbers-section__icon" width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <circle cx="6.50049" cy="6.5" r="6.5" fill="#FAC663" />
-                                  </svg>
-                                <span class="text_6">Размеры (ШхГхВ) — 90х100х180 см</span>
+                                </svg>
+                                <span class="numbers-section__text">Размеры (ШхГхВ) — 90х100х180 см</span>
                             </div>
                             <div>
-                                <svg class="text_5" width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <svg class="numbers-section__icon" width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <circle cx="6.50049" cy="6.5" r="6.5" fill="#FAC663" />
-                                  </svg>
-                                <span class="text_6">Цена за сутки: 200₽</span>
-                                <button class="button_2"></button>
+                                </svg>
+                                <span class="numbers-section__text">Цена за сутки: 200₽</span>
+                                <button class="numbers-section__button"></button>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <label class="label">
-                <div class="radio-buttons-wrapper">
-                    <input class="radio_button_1" type="radio" name="radio-btn" checked="checked">
-                    <input class="radio_button_1" type="radio" name="radio-btn">
-                    <input class="radio_button_1" type="radio" name="radio-btn">
-                    <button class="button_4"><svg width="6" height="10" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M1.00049 9L5.00049 5L1.00049 1" stroke="#FF7236" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" /> </svg> </button>
-                    <button class="button_3"><svg width="6" height="10" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <label class="numbers-section__label">
+                <div class="numbers-section__radio-wrapper">
+                    <input class="numbers-section__radio" type="radio" name="radio-btn" checked="checked">
+                    <input class="numbers-section__radio" type="radio" name="radio-btn">
+                    <input class="numbers-section__radio" type="radio" name="radio-btn">
+                    <button class="numbers-section__next-button"><svg width="6" height="10" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M1.00049 9L5.00049 5L1.00049 1" stroke="#FF7236" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" /> </svg> </button>
+                    <button class="numbers-section__prev-button"><svg width="6" height="10" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M5.00049 1L1.00049 5L5.00049 9" stroke="#FF7236" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                       </svg> </button>
                 </div>
@@ -112,34 +112,34 @@
         </section>
 
         <section id="Reviews" class="container">
-            <div class="box_7">
-                <h2 class="text_7">Отзывы</h2>
-                <div class="reviews_container" style="display: flex; gap: 30px; padding: 40px;">
+            <div class="reviews-section__wrapper">
+                <h2 class="reviews-section__title">Отзывы</h2>
+                <div class="reviews-section__reviews-container" style="display: flex; gap: 30px; padding: 40px;">
 
-                    <div class="box_8">
-                        <img class="img_5" src="./kartinki/“.svg" alt="Кавычки">
-                        <span class="text_8">Первый раз пришлось оставить нашего котика
+                    <div class="reviews-section__review">
+                        <img class="reviews-section__quotes" src="./kartinki/“.svg" alt="Кавычки">
+                        <span class="reviews-section__text">Первый раз пришлось оставить нашего котика
                             в гостинице, очень переживали. Администратор Мария каждый день высылала нам фото нашего питомца, рассказывала, как он себя чувствует.
                             И мы и котик остались очень довольны!
-                            <div class="box_9">
+                            <div class="reviews-section__author">
                                 <p>Валерия Гришаева</p>
                                 <p>15 ноября, 2019</p>
                             </div>
                         </span>
                     </div>
-                    <div class="box_8">
-                        <img class="img_5" src="./kartinki/“.svg" alt="Кавычки">
-                        <span class="text_8">Ребята просто молодцы, котэ вернулся домой довольный, будто и не уезжал. Всем рекомендую!
-                            <div class="box_9">
+                    <div class="reviews-section__review">
+                        <img class="reviews-section__quotes" src="./kartinki/“.svg" alt="Кавычки">
+                        <span class="reviews-section__text">Ребята просто молодцы, котэ вернулся домой довольный, будто и не уезжал. Всем рекомендую!
+                            <div class="reviews-section__author">
                                 <p>Владимир Яснов</p>
                                 <p>23 октября, 2020</p>
                             </div>
                          </span>
                     </div>
-                    <div class="box_8">
-                        <img class="img_5" src="./kartinki/“.svg" alt="Кавычки">
-                        <span class="text_8">Мой кот — настоящая привереда, угодить ему сложно. У меня были особые требования к уходу за ним, и “Котейка” отлично справились. Я часто наблюдал по видео за питомцем со своего телефона, это очень удобно. 
-                            <div class="box_9">
+                    <div class="reviews-section__review">
+                        <img class="reviews-section__quotes" src="./kartinki/“.svg" alt="Кавычки">
+                        <span class="reviews-section__text">Мой кот — настоящая привереда, угодить ему сложно. У меня были особые требования к уходу за ним, и “Котейка” отлично справились. Я часто наблюдал по видео за питомцем со своего телефона, это очень удобно. 
+                            <div class="reviews-section__author">
                                 <p>Павел Нечаев</p>
                                 <p>2 августа, 2019</p>
                             </div>
@@ -147,18 +147,23 @@
                     </div>
                  </div>
             </div>
-        </section>
-        <label class="label">
-                <div class="radio-buttons-wrapper">
-                    <input class="radio_button_1" type="radio" name="radio-btn" checked="checked">
-                    <input class="radio_button_1" type="radio" name="radio-btn">
-                    <input class="radio_button_1" type="radio" name="radio-btn">
-                    <button class="button_4"><svg width="6" height="10" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M1.00049 9L5.00049 5L1.00049 1" stroke="#FF7236" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" /> </svg> </button>
-                    <button class="button_3"><svg width="6" height="10" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <label class="reviews-section__label">
+                <div class="reviews-section__radio-wrapper">
+                    <input class="reviews-section__radio" type="radio" name="radio-btn1" checked="checked">
+                    <input class="reviews-section__radio" type="radio" name="radio-btn1">
+                    <input class="reviews-section__radio" type="radio" name="radio-btn1">
+                    <button class="reviews-section__next-button"><svg width="6" height="10" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M1.00049 9L5.00049 5L1.00049 1" stroke="#FF7236" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" /> </svg> </button>
+                    <button class="reviews-section__prev-button"><svg width="6" height="10" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M5.00049 1L1.00049 5L5.00049 9" stroke="#FF7236" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                       </svg> </button>
                 </div>
             </label>
+        </section>
+        <section class="container" id="Map">
+            <div class="map-section__wrapper">
+                
+            </div>
+        </section>
     </main>
 </body>
 </html>
