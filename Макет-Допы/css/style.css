@@ -89,7 +89,7 @@ main {
     flex-direction: column;
     align-items: center;
     overflow: hidden;
-    min-height: 3600px;
+    min-height: 2810px;
 }
 
 .why-us__wrapper{
@@ -107,7 +107,7 @@ main {
     font-size: 36px;
     font-weight: 700;
     text-align: center;
-
+    padding-top: 100px;
 }
 
 .why-us__item {
@@ -391,4 +391,102 @@ main {
 .map-section__wrapper{
     width: 1366px;
     height: 580px;
+    margin-top: 98px;
+    display: flex;
+}
+.map-section__wrapper__div{
+    width: 568px;
+    height: 580px;  
+    background: #fac663;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.map-section__wrapper__img{
+    background-image: url(../kartinki/map.jpg);
+    width: 798px;
+    height: 580px;
+    display: flex;
+}
+.map-section__sutittle{
+    margin: 9%;
+    font-weight: 700;
+    font-size: 36px;
+    color: #1a212f;
+}
+#map-section__div{
+    width: 227px;
+    height: 59px;
+    padding-bottom: 50px;
+}
+.map-section__text{
+    font-weight: 700;
+    font-size: 16px;
+    color: #1a212f;
+}
+.map-section__info{
+    font-weight: 400;
+    font-size: 16px;
+    color: #1a212f;
+    padding-bottom: 15px;
+}
+.map-section__div{
+    width: 227px;
+    height: 59px;
+    padding-top: 35px;
+}
+.map-section__icons{
+    display: flex;
+}
+.map-section__icon{
+    margin: 10px;
+}
+.map-section__icon_svg{
+    position: relative;
+    top: 247px;
+    left: 263px;
+}
+footer{
+    width: 1366px;
+    height: 125px;
+}
+.footer-icon{
+    padding-left: 198px;
+    margin-top: 12px;
+    margin-right: 370px; 
+}
+.footer__nav{
+    display: flex;
+    align-items: center;
+    height: 76px;
+    gap: 20px;
+}
+.footer__link{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    color: #1a212f;
+    padding: 0 20px;
+}
+hr{
+    border: 1px solid #efefef;
+    width: 1366px;
+    height: 0px;
+}
+.footer__img{
+    margin-top: 20px;
+    margin-left: 198px;
+}
+.footer__text{
+    font-weight: 400;
+    font-size: 12px;
+    color: #8f8f8f;
+    cursor: pointer;
+}
+.footer__info{
+    font-weight: 400;
+    font-size: 12px;
+    color: #8f8f8f;
+    margin-left: 629px;
+    cursor: pointer;
 }
