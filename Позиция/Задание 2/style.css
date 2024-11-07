@@ -1,18 +1,178 @@
-.container{
-    max-width: 1880px;
-    margin: 0px auto;
-    align-content: center;
-}
-.fon{
-    background-image: url(./berlin/1451.jpg);
-    background-size:contain ;
-    height: 500px;
+.Field {
+    background-image: url(./img/1451.jpeg);
+    background-size: cover;
     background-repeat: no-repeat;
-    margin: auto ;
+    height: 1000px;
+    width: 1000px;
+    margin: auto;
     position: relative;
 }
-.figure{
-    width: 40px;
-    height: 40px;
-    position: relative;
+
+img {
+    height: 70px;
+    width: 70px; 
+}
+
+#Black_Slon_1 {
+    position: absolute;
+    top: 205px;
+    left: 205px;
+}
+#Black_Slon_2 {
+    position: absolute;
+    top: 205px;
+    left: 720px;
+}
+#Black_Fers_1 {
+    position: absolute;
+    top: 205px;
+    left: 355px;
+}
+#Black_Fers_2 {
+    position: absolute;
+    top: 205px;
+    left: 570px;
+}
+#Black_Queen {
+    position: absolute;
+    top: 205px;
+    left: 500px;
+}
+#Black_King {
+    position: absolute;
+    top: 205px;
+    left: 425px;
+}
+#Black_Horse_1 {
+    position: absolute;
+    top: 350px;
+    left: 355px;
+}
+#Black_Horse_2 {
+    position: absolute;
+    top: 205px;
+    left: 650px;
+}
+#Black_Solder_1 {
+    position: absolute;
+    top: 275px;
+    left: 425px;
+}
+#Black_Solder_2 {
+    position: absolute;
+    top: 275px;
+    left: 205px;
+}
+#Black_Solder_3 {
+    position: absolute;
+    top: 275px;
+    left: 647px;
+}
+#Black_Solder_4 {
+    position: absolute;
+    top: 275px;
+    left: 354px;
+}
+#Black_Solder_5 {
+    position: absolute;
+    top: 275px;
+    left: 280px;
+}
+#Black_Solder_6 {
+    position: absolute;
+    top: 420px;
+    left: 500px;
+}
+#Black_Solder_7 {
+    position: absolute;
+    top: 275px;
+    left: 720px;
+}
+#Black_Solder_8 {
+    position: absolute;
+    top: 275px;
+    left: 573px;
+}
+
+
+
+#White_Slon_1 {
+    position: absolute;
+    top: 720px;
+    left: 205px;
+}
+#White_Slon_2 {
+    position: absolute;
+    top: 720px;
+    left: 720px;
+}
+#White_Fers_1 {
+    position: absolute;
+    top: 720px;
+    left: 355px;
+}
+#White_Fers_2 {
+    position: absolute;
+    top: 425px;
+    left: 280px;
+}
+#White_Queen {
+    position: absolute;
+    top: 720px;
+    left: 500px;
+}
+#White_King {
+    position: absolute;
+    top: 720px;
+    left: 425px;
+}
+#White_Horse_1 {
+    position: absolute;
+    top: 720px;
+    left: 280px;
+}
+#White_Horse_2 {
+    position: absolute;
+    top: 575px;
+    left: 570px;
+}
+#White_Solder_1 {
+    position: absolute;
+    top: 645px;
+    left: 425px;
+}
+#White_Solder_2 {
+    position: absolute;
+    top: 645px;
+    left: 205px;
+}
+#White_Solder_3 {
+    position: absolute;
+    top: 645px;
+    left: 647px;
+}
+#White_Solder_4 {
+    position: absolute;
+    top: 645px;
+    left: 354px;
+}
+#White_Solder_5 {
+    position: absolute;
+    top: 645px;
+    left: 280px;
+}
+#White_Solder_6 {
+    position: absolute;
+    top: 500px;
+    left: 500px;
+}
+#White_Solder_7 {
+    position: absolute;
+    top: 645px;
+    left: 720px;
+}
+#White_Solder_8 {
+    position: absolute;
+    top: 645px;
+    left: 573px;
 }
