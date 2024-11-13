@@ -14,6 +14,7 @@ body {
 }
 
 .header__nav {
+    max-width: 1920px;
     display: flex;
     align-items: center;
     height: 76px;
@@ -51,7 +52,7 @@ body {
 }
 
 #main-block{
-    width: 1366px;
+    max-width: 1920px;
     height: 504px;
     background-image: url(/kartinki/background-main.jpg);
     z-index: 99;
@@ -93,7 +94,7 @@ main {
 }
 
 .why-us__wrapper{
-    width: 1366px;
+    max-width: 1920px;
     height: 757px;
     align-items:center;
     display: flex;
@@ -108,6 +109,7 @@ main {
     font-weight: 700;
     text-align: center;
     padding-top: 100px;
+    max-width: 1920px;
 }
 
 .why-us__item {
@@ -149,7 +151,7 @@ main {
 }
 
 .numbers-section__wrapper{
-    width: auto;
+    max-width: 1920px;
     height: 578px; 
     background-image: url(../kartinki/fish.jpg);
     background-repeat: no-repeat;
@@ -197,6 +199,7 @@ main {
 .numbers-section__item {
     display: flex;
     align-items: center; /* Или flex-start, в зависимости от желаемого поведения */
+    max-width: 1920px;
   }
 
 .numbers-section__subtitle{
@@ -290,7 +293,7 @@ main {
 
 .reviews-section__wrapper{
     padding-top: 200px;
-    width: 1294px;
+    max-width: 1294px;
     height: 556px;
     background-image: url(../kartinki/лапка.png);
     background-repeat: no-repeat;
@@ -389,8 +392,8 @@ main {
     cursor: pointer;
 }
 .map-section__wrapper{
-    width: 1366px;
-    height: 580px;
+    max-width: 1920px;
+    max-height: 580px;
     margin-top: 98px;
     display: flex;
 }
@@ -403,9 +406,9 @@ main {
     align-items: center;
 }
 .map-section__wrapper__img{
-    background-image: url(../kartinki/map.jpg);
+    /* background-image: url(../kartinki/map.jpg); */
     width: 798px;
-    height: 580px;
+    max-height: 580px;
     display: flex;
 }
 .map-section__sutittle{
@@ -447,7 +450,7 @@ main {
     left: 263px;
 }
 footer{
-    width: 1366px;
+    max-width: 1920px;
     height: 125px;
 }
 .footer-icon{
@@ -460,6 +463,7 @@ footer{
     align-items: center;
     height: 76px;
     gap: 20px;
+
 }
 .footer__link{
     text-decoration: none;
@@ -470,7 +474,7 @@ footer{
 }
 hr{
     border: 1px solid #efefef;
-    width: 1366px;
+    max-width: 1920px;
     height: 0px;
 }
 .footer__img{
@@ -489,4 +493,13 @@ hr{
     color: #8f8f8f;
     margin-left: 629px;
     cursor: pointer;
+}
+
+
+.mapblock__map{
+    width: 1000px;
+}
+@media screen and (max-width:768px) { 
+
+    
 }
