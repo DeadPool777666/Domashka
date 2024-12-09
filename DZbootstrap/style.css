@@ -15,8 +15,8 @@
     align-items: center;
 }
 .div{
-    border-top:  10px solid white; 
-    border-bottom:  10px solid white; 
+    border-top:  10px solid rgb(4, 130, 176); 
+    border-bottom:  10px solid rgb(4, 130, 176); 
     font-size: 100px;
     max-width: 1400px;
     min-height: 250px;
@@ -24,3 +24,109 @@
     flex-direction: column;
     align-items: center;
 }
+.dropdown {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+.read_button{
+    margin-top: 60px;
+}
+.img_box2{
+    margin-top: 100px;
+}
+.our-values-section {
+    background-color: #7d7d7d;
+    color: white;
+    padding: 50px 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.values-image {
+    flex: 1;
+    max-width: 1400px;
+    margin: 15px;
+}
+
+.values-image img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.values-content {
+    flex: 2;
+    max-width: 600px;
+    margin: 15px;
+}
+
+.values-content h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.values-content p {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.values-icons {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.value-item {
+    text-align: center;
+    margin: 10px;
+    flex: 1;
+    max-width: 150px;
+}
+
+.value-item .icon {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.value-item h3 {
+    font-size: 1.1rem;
+}
+.btn-custom {
+    background-color: #224b2f; /* Ваш темно-зеленый цвет */
+    color: white;
+    margin-bottom: 10px;
+}
+.flex_gallery{
+    display: flex;
+}
+.img_gallery{
+    max-width: 400px;
+    min-height: 250px;
+    margin: 30px;
+
+}
+.col-md-4{
+    padding-left: 40px;
+
+}
+.carousel-inner{
+    max-width: 1000px;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 20px;
+    height: 600px;
+} 
+  .progress{
+    margin-top: 20px;
+    background-color: black;
+  }
+  .card-body{
+    max-width: 1000px;
+  }
+  .carousel{
+    background-color: rgba(163, 145, 243, 0.496);
+  }
