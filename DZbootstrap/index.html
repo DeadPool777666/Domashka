@@ -17,22 +17,22 @@
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav"> 
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
+                        <a class="nav-link" href="#about">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Features</a>
+                        <a class="nav-link" href="#features">Features</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Gallery</a>
+                        <a class="nav-link" href="#gallery">Gallery</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Testimonials</a>
+                        <a class="nav-link" href="#testimonials">Testimonials</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Blog</a>
+                        <a class="nav-link" href="#blog">Blog</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" href="#contact">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -44,7 +44,7 @@
           <h2>REACT-РАЗРАБОТКА С АНИМЕШНЫМИ ДЕВОЧКАМИ</h2>
         </div>
       </div>
-      <div class="dropdown">
+      <div id="about" class="dropdown">
         <h5 class="text d-flex justify-content-center more_txt">Узнать больше</h5>
 
          <img src="./kartinki/frieren-2023-in.xmktn1ub8xmw..webp" class="rounded mx-auto d-block img_box2" alt="...">
@@ -61,7 +61,7 @@
             </div>
           </div>
     <div>
-      <section class="our-values-section ">
+      <section id="features" class="our-values-section ">
         <div class="values-image">
             <img src="./kartinki/violet.webp" alt="Close-up of a frog">
         </div>
@@ -86,7 +86,7 @@
             </div>
         </div>
     </section>
-    <div class="container flex_gallery">
+    <div id="gallery" class="container flex_gallery">
       <div class="d-grid gap-2">
         <h1 class="text-center mt-5 mb-4">Our Gallery</h1>
           <button class="btn btn-custom btn-lg">All Categories</button>
@@ -130,8 +130,9 @@
       </div>
     </div>
   </div>
-  <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
-    <div class="carousel-inner">
+  <section id="testimonials">
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+      <div class="carousel-inner">
       <div class="carousel-item active">
         <img src="./kartinki/99px_ru_wallpaper_324003_rem__rem_i_ram__ram_iz.jpg" class="d-block w-100" alt="...">
       </div>
@@ -151,6 +152,43 @@
       <span class="visually-hidden">Следующий</span>
     </button>
   </div>
+</section>
+  <div id="blog" class="container-lg flex_noting">
+    <p><strong>Посты</strong></p>
+  </div>
+  <p class="container-sm flex_noting"><strong>Здесь пока что ничего нету, но ждите контент в будущем!</strong></p> 
+  <div id="contact" class="container-fluid div_contact">
+    <h1 class="text-center mb-4">НАШИ КОНТАКТЫ /ᐠ˵- ⩊ -˵マ♡</h1>
+    <div class="text-center mb-4">
+        <p>+77777777778 | animegirl@gmail.com</p>
+    </div>
+    <form>
+        <div class="mb-3">
+            <label for="name" class="form-label">Name</label>
+            <input type="text" class="form-control" id="name" placeholder="Your Name">
+        </div>
+        <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email" placeholder="Your Email">
+        </div>
+        <div class="mb-3">
+            <label for="subject" class="form-label">Subject</label>
+            <input type="text" class="form-control" id="subject" placeholder="Subject">
+        </div>
+        <div class="mb-3">
+            <label for="message" class="form-label">Message</label>
+            <textarea class="form-control" id="message" rows="3" placeholder="Your Message"></textarea>
+        </div>
+        <div class="text-center">
+            <button type="submit" class="btn btn-primary">Send</button>
+        </div>
+    </form>
+</div>
+<div class="container"></div>
+  <footer class="py-3 my-4">
+    <p class="text-center text-muted">© 2024 Anime-Girls Company, Inc</p>
+  </footer>
+</div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
-</html>
+</html> 
